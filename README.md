@@ -9,6 +9,6 @@ Analyzing exclude-demo...
 ```
 
 Although the folder `lib/excluded` excluded in `analysis_options.yaml` it still
-produces lint warnings, **because it is imported in `lib/main.dart`.
+produces lint warnings, **because it is imported in `lib/main.dart`**.
 
 If the `import` line in `lib/main.dart` is removed, the lint warning disappears.
