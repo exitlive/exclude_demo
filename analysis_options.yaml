@@ -1,0 +1,6 @@
+analyzer:
+  exclude:
+    - lib/excluded/**
+linter:
+  rules:
+    - prefer_is_not_empty

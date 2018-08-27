@@ -1,0 +1,5 @@
+name: exclude_demo
+description: Demo to show that exclude is not working as intended
+version: 1.0.0
+environment:
+  sdk: ">=2.0.0 <3.0.0"
