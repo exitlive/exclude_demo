@@ -1,5 +1,5 @@
 bar() {
   if (![].isEmpty) {
-    print('This should produce: "Use `isNotEmpty` for Iterables and Maps."');
+    print('This should not produce any lints because it is excluded');
   }
 }
